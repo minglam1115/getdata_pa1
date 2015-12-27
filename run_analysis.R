@@ -84,7 +84,7 @@ create.tidy.dataset = function(df) {
         tidy
 }
 
-clean.data = function() {
+start.process = function() {
         # Download data
         download.data()
         # merge training and test datasets. merge.datasets function returns a list
